@@ -23,6 +23,7 @@ On the UCSC campus, there are a few bus stops that are generally very busy with 
 believe that by establishing “selective” bus stops on campus where a metro bus will only selectively make stops might allow commuters to make it home easier while also enabling students on campus to traverse campus without too much of a hassle. Based on what we observed with students on campus in addition to our own experiences, students tend to opt for the bus even if it is simply to just get to the next bus stop, despite it being faster to walk there in comparison to waiting, boarding, and riding the bus. We can conclude that students will generally tend to choose the option which they perceive as easier and requires less effort. Seeing as this is the case, we would need to ensure that the bus stops are not adjacent to ensure that students are disincentivized to ride the bus to get around within campus.
 
 **Role of csvmodifier.py and Data**
+
 The data we collected from TAPS was also not very cleaned up due to the massive amount they gave us, so we had to clean the dataset ourselves. To do this, I wrote a custom Python script *csvmodifier.py* which was used to take a dataset with 990,722 data points, and cleaned to make it possible to import into pgAdmin. In pgAdmin, I created a new table in which we stored
 all the data to be able to quickly pull any relevant information since it allows us to process lots of data in a relatively short amount of time.
 
